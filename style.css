@@ -230,6 +230,20 @@ ul a{
     padding-top: 25px;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .fot-opt {
+        padding-top: 15px;
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .fot-opt {
+        padding-top: 10px;
+        font-size: 0.65rem;
+    }
+}
 .copy{
     padding-top: 5px;
 }
